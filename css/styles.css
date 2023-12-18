@@ -55,11 +55,11 @@ h3 {
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  column-gap: 150px;
+  column-gap: 100px;
 }
 
 .text-container {
-  width: 520px;
+  width: 620px;
   font-size: 25px;
   height: 26px;
 }
