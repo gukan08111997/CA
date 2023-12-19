@@ -203,17 +203,46 @@ observer11.observe(document.querySelector(".team-container"));
 
 
 //   Slick Animation Effect
-$(document).ready(function () {
+$(document).ready(function ($) {
+  var alterClass = function() {
+    var ww = document.body.clientWidth;
+    if (ww < 400) {
+      $('#slick-carousel').removeClass('autoplay');
+      $('#contact-submit-btn').removeClass('w-25');
+      //add the class for mobile width  
+      $('#slick-carousel').addClass('mobile-slick');
+    } else if (ww >= 401) {
+      $('#slick-carousel').addClass('autoplay');
+      $('#contact-submit-btn').addClass('w-25');
+    };
+  };
+  $(window).resize(function(){
+    alterClass();
+  });
+  //Fire it when the page first loads:
+  alterClass();
   $(".autoplay").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2000
   });
+  //slick specification for mobile width
+  
+  $(".mobile-slick").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
+
+  
  
 });
 
-
+jQuery(document).ready(function($) {
+ 
+});
 
 
 

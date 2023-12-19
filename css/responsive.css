@@ -1,0 +1,83 @@
+/* Mobile Responsive max-width:400px */
+@media (max-width:400px){
+
+/* for Toprbar in home page  */
+    .text-container{
+    display: block;
+}
+.dynamic-text{
+  margin-left:50px;
+  font-size: 22px;
+}
+.static-text{
+position: absolute;
+right:30%;
+font-size: 22px;
+}
+.static-text span{
+    display:none;
+}
+.social-media-container{
+    margin:2% auto;
+}
+
+/* Navbar section   */
+
+.navbar-section{
+    position:static;
+}
+
+/* Welcome Section in home page */
+.welcome-div2{
+    display:none;
+}
+
+.welcome-div1,.welcome-div3{
+    width:180px;
+    height:300px;
+    right:10px;
+    margin:30px 0;
+}
+
+/* Course section in Home page  */
+.card-container .card:first-child,.Course-section>h3{
+    margin-top: -120px;
+}
+
+.card-container .card{
+    width:100%;
+    margin-bottom: 30px;
+}
+
+/* Testimonial section  */
+.testimonial-div{
+    height:270px;
+}
+
+
+
+/* Our Team Section in home page  */
+
+.team-section>img{
+    display: none;
+}
+.team-section >h3{
+    margin-top:0;
+}
+.team-container{
+    position: relative;
+    left:0;
+    margin:0 90px;
+}
+
+/* Contact Section in Home page  */
+
+.contact-section form > div > label{
+    flex-basis:100% !important;
+}
+.contact-section form > div > input,.contact-section form > div > textarea {
+    flex-basis: 100%;
+    text-align: center;
+  }
+ 
+}
