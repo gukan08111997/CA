@@ -79,5 +79,44 @@ font-size: 22px;
     flex-basis: 100%;
     text-align: center;
   }
+
+  /* About Page  */
+
+  /* counter Section  */
+  .counter-container{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-evenly;
+  }
+
+  .counter-container > div > div{
+    gap:20px;
+  }
  
+ /* courses pages  for CA & CMA */
+ .course-seperate-container>button{
+font-size: 10px;
+ }
+
+ /* events Page  */
+ .accordion-button::after{
+    margin-left:-100px !important;
+ }
+ .accordion-header p{
+    margin-left:-10px;
+ }
+
+ /* contact us page  */
+ .contact-us-container{
+    display: block;
+  
+ }
+ .contact-address-container>div,.form-container>input,.form-container textarea{
+width:80vw;
+margin:10px 35px;
+ }
+ .form-container button{
+    width:50%;
+    margin-left:140px;
+ }
 }
