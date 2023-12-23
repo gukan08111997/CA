@@ -9,8 +9,9 @@ const observer1 = new IntersectionObserver((entries) => {
       return; // if we added the class, exit the function
     }
 
-    // We're not intersecting, so remove the class!
-    square.classList.remove("welcome-div1-animation");
+    /* We're not intersecting, so remove the class! if you want to apply animation 
+    every time we scroll to that element then include below line */
+    // square.classList.remove("welcome-div1-animation");
   });
 });
 
@@ -25,7 +26,7 @@ const observer2 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("welcome-div2-animation");
+    // square.classList.remove("welcome-div2-animation");
   });
 });
 
@@ -40,7 +41,7 @@ const observer3 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("welcome-div3-animation");
+    // square.classList.remove("welcome-div3-animation");
   });
 });
 
@@ -59,8 +60,8 @@ const observer4 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -79,8 +80,8 @@ const observer5 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -99,8 +100,8 @@ const observer6 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -118,8 +119,8 @@ const observer7 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -136,8 +137,8 @@ const observer8 = new IntersectionObserver((entries) => {
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("phone-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("phone-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -151,13 +152,13 @@ const observer9 = new IntersectionObserver((entries) => {
       setTimeout(() => {
       square.classList.remove("opacity");
       square.classList.add("card-animation");
-    }, 2000);
+    }, 1000);
       return; // if we added the class, exit the function
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -170,13 +171,13 @@ const observer10 = new IntersectionObserver((entries) => {
       setTimeout(() => {
       square.classList.remove("opacity");
       square.classList.add("card-animation");
-    }, 2500);
+    }, 1500);
       return; // if we added the class, exit the function
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 
@@ -189,13 +190,13 @@ const observer11 = new IntersectionObserver((entries) => {
       setTimeout(() => {
       square.classList.remove("opacity");
       square.classList.add("card-animation");
-    }, 3000);
+    }, 2000);
       return; // if we added the class, exit the function
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove("card-animation");
-    square.classList.add("opacity");
+    // square.classList.remove("card-animation");
+    // square.classList.add("opacity");
   });
 });
 

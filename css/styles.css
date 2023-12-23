@@ -226,13 +226,16 @@ nav {
 }
 .welcome-div1,
 .welcome-div3 {
+  color:#fff;
+  line-height: 2;
+  text-align: justify;
   background: linear-gradient(to right bottom, #01baef, #2b3499);
   width: 35%;
   border-radius: 25px;
   height: 500px;
   position: relative;
   z-index: 1;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 5px 5px 10px #333;
 }
 .welcome-div2 {
@@ -258,6 +261,9 @@ div.welcome-div2 img {
 .welcome-div {
   display: flex;
   justify-content: center;
+}
+.welcome-div1 span,.welcome-div3 span,.about-us-div1 span,.about-us-div2 span{
+  font-size:25px ;
 }
 @keyframes moveInLeft {
   0% {
@@ -517,6 +523,10 @@ h3 a:link {
   box-shadow: 10px 5px 20px #333;
   animation: moveInRight 1.5s ease-in-out;
   overflow:hidden;
+}
+.about-us-div1 p:first-child,.about-us-div2 p:first-child{
+  margin-top:100px;
+
 }
 
 /* About Testimonial Section  */
