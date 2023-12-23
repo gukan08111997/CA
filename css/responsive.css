@@ -1,160 +1,189 @@
 /* Mobile Responsive max-width:400px */
-@media (max-width:400px){
-
-/* for Toprbar in home page  */
-    .text-container{
+@media (max-width: 400px) {
+  /* for Toprbar in home page  */
+  .text-container {
     display: block;
-}
-.dynamic-text{
-  margin-left:50px;
-  font-size: 22px;
-}
-.static-text{
-position: absolute;
-right:30%;
-font-size: 22px;
-}
-.static-text span{
-    display:none;
-}
-.social-media-container{
-    margin:2% auto;
-}
+  }
+  .dynamic-text {
+    margin-left: 50px;
+    font-size: 22px;
+  }
+  .static-text {
+    position: absolute;
+    right: 30%;
+    font-size: 22px;
+  }
+  .static-text span {
+    display: none;
+  }
+  .social-media-container {
+    margin: 2% auto;
+    column-gap: 5%;
+  }
 
-/* Navbar section   */
+  /* Navbar section   */
 
-.navbar-section{
-    position:static;
-}
+  .navbar-section {
+    position: static;
+  }
 
-/* Welcome Section in home page */
-.welcome-div2{
-    display:none;
-}
+  /* Welcome Section in home page */
+  .welcome-div2 {
+    display: none;
+  }
 
-.welcome-div1,.welcome-div3{
-    width:200px;
-    height:350px;
-    right:10px;
-    margin:30px 0;
+  .welcome-div1,
+  .welcome-div3 {
+    width: 200px;
+    height: 400px;
+    right: 10px;
+    margin: 30px 0;
     line-height: 1.2;
     text-align: left;
     font-size: 12px;
-}
-.welcome-div .welcome-div3{
-    height:200px;
-    margin-top:100px;
-    width:200px;
-}
-  
+  }
+  .welcome-div .welcome-div3 {
+    height: 200px;
+    margin-top: 100px;
+    width: 200px;
+  }
 
-/* Course section in Home page  */
-.card-container .card:first-child,.Course-section>h3{
+  /* Course section in Home page  */
+  .card-container .card:first-child,
+  .Course-section > h3 {
     margin-top: -120px;
-}
+  }
 
-.card-container .card{
-    width:80%;
-    margin:0 auto 30px;
-}
+  .card-container .card {
+    width: 80%;
+    margin: 0 auto 30px;
+  }
 
-/* Testimonial section  */
-.testimonial-div{
-    height:270px;
-}
+  /* Testimonial section  */
+  .testimonial-div {
+    height: 270px;
+  }
 
+  /* Our Team Section in home page  */
 
-
-/* Our Team Section in home page  */
-
-.team-section>img{
+  .team-section > img {
     display: none;
-}
-.team-section >h3{
-    margin-top:0;
-}
-.team-container{
+  }
+  .team-section > h3 {
+    margin-top: 0;
+  }
+  .team-container {
     position: relative;
-    left:0;
-    margin:0 90px;
-}
+    left: 0;
+    margin: 0 90px;
+  }
 
+  /* Contact Section in Home page  */
 
-/* Contact Section in Home page  */
-
-.contact-section form > div > label{
-    flex-basis:100% !important;
-}
-.contact-section form > div > input,.contact-section form > div > textarea {
+  .contact-section form > div > label {
+    flex-basis: 100% !important;
+  }
+  .contact-section form > div > input,
+  .contact-section form > div > textarea {
     flex-basis: 100%;
     text-align: center;
   }
 
   /* About Page  */
 
-  .about-us-div1,.about-us-div2{
+  .about-us-div1,
+  .about-us-div2 {
     font-size: 12px;
     text-align: left;
     padding: 5px;
   }
-  .about-us-div2{
-    width:50%;
-    right:1%;
-    top:0;
-    height:80vh;
+  .about-us-div2 {
+    width: 50%;
+    right: 1%;
+    top: 0;
+    height: 80vh;
   }
-  .about-us-div1 p:first-child,.about-us-div2 p:first-child{
-    margin-top:0;
+  .about-us-div1 p:first-child,
+  .about-us-div2 p:first-child {
+    margin-top: 0;
   }
-  .about-us-div1 span,.about-us-div2 span{
-    font-size:13px;
+  .about-us-div1 span,
+  .about-us-div2 span {
+    font-size: 13px;
   }
 
   /* counter Section  */
-  .counter-container{
+  .counter-container {
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
   }
 
-  .counter-container > div > div{
-    gap:20px;
+  .counter-container > div > div {
+    gap: 20px;
   }
- 
- /* courses pages  for CA & CMA */
- .course-seperate-container>button{
-font-size: 10px;
- }
 
- /* events Page  */
- .accordion-button::after{
-    margin-left:-100px !important;
- }
- .accordion-header p{
-    margin-left:-10px;
- }
-
- /* contact us page  */
- .contact-us-container{
-    display: block;
-  
- }
- .contact-address-container>div,.form-container>input,.form-container textarea{
-width:80vw;
-margin:10px 35px;
- }
- .form-container button{
-    width:50%;
-    margin-left:140px;
- }
-
- /* Notification page  */
-
- .notification-container div h4{
-    font-size: 16px;
- }
-
- .notification-container div{
+  /* courses pages  for CA & CMA */
+  .course-seperate-container > button {
     font-size: 10px;
- }
+  }
+
+  /* events Page  */
+  .accordion-button::after {
+    margin-left: -100px !important;
+  }
+  .accordion-header p {
+    margin-left: -10px;
+  }
+
+  /* contact us page  */
+  .contact-us-container {
+    display: block;
+  }
+  .contact-address-container > div,
+  .form-container > input,
+  .form-container textarea {
+    width: 80vw;
+    margin: 10px 35px;
+  }
+  .form-container button {
+    width: 50%;
+    margin-left: 140px;
+  }
+
+  /* Notification page  */
+
+  .notification-container div h4 {
+    font-size: 16px;
+  }
+
+  .notification-container div {
+    font-size: 10px;
+  }
+}
+
+/*Responsiveness for small Laptops  */
+@media (min-width: 900px) and (max-width:1200px) {
+  /* Home Page  */
+  /* Topbar Section  */
+.social-media-container{
+  margin-left: 15%;
+}
+  /* Welcome-section  */
+  .welcome-div1,
+  .welcome-div3 {
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  /* course Section  */
+  .card-container{
+    padding:1%;
+    flex-wrap:nowrap
+  }
+
+  /* Team Section  */
+  .team-container{
+    left:15%;
+  }
 }

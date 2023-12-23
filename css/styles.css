@@ -43,7 +43,8 @@ h3 {
   padding: 50px 10px;
 }
 
-/* topbar styles */
+/* topbar section */
+
 .topbar-section {
   background-color: #000;
   padding: 10px;
@@ -52,7 +53,6 @@ h3 {
 .container1 {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
 
@@ -107,12 +107,12 @@ span, .social-media-container i,.navbar-section a,
 }
 
 .social-media-container {
-  margin: 10px 0 0 5%;
+  margin: 10px 0 0 25%;
   display: flex;
-  width: 50%;
+  flex-basis: 30%;
   justify-content: center;
   align-items: center;
-  column-gap: 7%;
+  column-gap: 5%;
 }
 
 /* navbar section */
@@ -263,7 +263,7 @@ div.welcome-div2 img {
   justify-content: center;
 }
 .welcome-div1 span,.welcome-div3 span,.about-us-div1 span,.about-us-div2 span{
-  font-size:25px ;
+  font-size:22px ;
 }
 @keyframes moveInLeft {
   0% {
