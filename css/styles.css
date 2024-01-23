@@ -83,6 +83,7 @@ span, .social-media-container i,.navbar-section a,
   position: absolute;
   overflow: hidden;
   height: 35px;
+  padding-left: 0.2rem;
 }
 
 .item {
@@ -538,7 +539,7 @@ h3 a:link {
   justify-content: center;
 }
 .about-testimonial-div {
-
+  flex-basis:30%;
   background-color: #ffd099;
   height: 40vh;
   margin: 20px;
@@ -557,7 +558,6 @@ h3 a:link {
 }
 .about-testimonial-div:hover {
   background-color: #fe8366;
-  flex-basis: 30%;
   height: 40vh;
 }
 .second-row {
