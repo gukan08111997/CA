@@ -821,6 +821,63 @@ h3 a:link {
 }
 
 /* course seperate section  */
+
+.intro-section{
+  background-image:url(../images/ca-bg.jpeg);
+  background-size: cover;
+padding:50px;
+
+}
+.intro-section-flex-container{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  gap: 5px;
+  
+}
+.intro-section-flex-container div{
+  flex-basis: 30%;
+  background-color: #EEF5FF;
+  padding:20px;
+  box-shadow: 5px 5px 10px 3px #333;
+}
+.intro-section-flex-container div p{
+  text-align: left;
+}
+.intro-section-flex-container div li{
+ 
+  text-align: left;
+}
+.intro-section-flex-container div:nth-child(2){
+  background: none;
+  box-shadow: none;
+}
+.intro-section-flex-container div:nth-child(2) img{
+  transform: scale(1.4);
+  margin-top:100px;
+
+}
+
+.intro-section-grid-container{
+  display:grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows:repeat(11,max-content);
+  margin:100px;
+  background-color: #EEF5FF;
+  padding:10px;
+}
+.intro-section-grid-container div:nth-child(1),.intro-section-grid-container div:nth-child(2){
+  background-color: #2b3499;
+  color:#fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.intro-section-grid-container div{
+  border:1px solid;
+  border-width:0 0 1px 0;
+  box-shadow: 3px 3px 5px #333;
+  padding:5px;
+}
 .course-seperate-container{
   display:grid;
   grid-template-rows: 10vh 100vh;

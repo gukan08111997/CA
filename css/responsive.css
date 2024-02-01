@@ -127,6 +127,22 @@
   .course-seperate-container > button {
     font-size: 10px;
   }
+  .intro-section-flex-container{
+    flex-flow: column nowrap;
+  }
+  .intro-section-flex-container div:nth-child(2) img{
+    transform: scale(1);
+    margin:0 0 0 -20px;
+  
+  }
+  .intro-section-grid-container{
+    margin:50px 0;
+    padding:0;
+    font-size: 12px;
+  }
+  .intro-section-grid-container div:nth-child(1),.intro-section-grid-container div:nth-child(2){
+    font-size: 16px;
+  }
 
   /* events Page  */
   .accordion-button::after {
